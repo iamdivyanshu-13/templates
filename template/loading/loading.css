@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-color: rgba(15, 79, 125, 1);
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-container{
+    background-color: rgba(255, 255, 255, 1);
+    width: 450px;
+    height: 600px;
+    border-radius: 31px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: poppins;
+}
+.head{
+    text-align: left;
+}
+.head img{
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.heading-1 p{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.image img{
+    width: 410px;
+    height: 310px;
+}
+.second-container{
+    width: 480px;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    margin-top: 40px;
+}
+
+h2{
+    font-weight: 600;
+    font-size:28px;
+    margin-top:230px;
+}
+.heading-2 p{
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(210, 208, 205);
+    margin-top: 20px;
+}
+progress {
+    width: 435px;
+    height:35px;
+    top: 553px;
+    left: 793px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    padding: 2px;
+    margin-top: 40px;
+}
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+progress::-webkit-progress-value {
+    background-color: #ffcc00;
+    border-radius: 4px;
+}
+#p2{
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 21px;
+}
+@media screen and (min-width:2560px) and (max-width:4000px) {
+    .header{
+        display: none;
+    }
+    #p1{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    .header{
+        display: none;
+    }
+    #p1{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .header{
+        display: none;
+    }
+    #p1{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 30px;
+        width: 430px;
+        color: black;
+        height: 590px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        margin-left: 10px;
+    }
+    
+    h1{
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+    .heading-1 p{
+        font-weight: 400;
+        font-size:19px;
+        margin-top: 15px;
+    }
+    .image img{
+        width: 390px;
+        height: 340px;
+    }
+    .second-container{
+        margin-top: 30px;
+        width: 450px;
+    }
+    .header{
+        display: none;
+    }
+    h2{
+        font-weight: 600;
+        margin-top: 210px;
+        font-size: 23px;
+    }
+    .heading-2 p{
+        font-weight: 400;
+        font-size: 16px;    
+    }
+    progress {
+        width: 355px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 2px solid #ffffff;
+        padding: 2px;
+        margin-top: 40px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        display: none;
+    }
+    #p2{
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:621px) and (max-width:768px) {
+    .main-container{
+        flex-direction: row;
+        font-family: poppins;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 30px;
+        width: 330px;
+        color: black;
+        height: 600px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        
+        
+    }
+    .head img{
+        width: 110px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .heading-1 p{
+        font-weight: 400;
+        font-size:17.5px;
+        margin-top: 14px;
+    }
+    .image img{
+        width: 320px;
+        height: 340px;
+    }
+    .second-container{
+        margin-top: 30px;
+        width: 280px;
+        height: 600px;
+    }
+    .header{
+        display: none;
+    }
+    h2{
+        width: 280px;
+        font-weight: 600;
+        margin-top: 210px;
+        font-size: 20px;
+    }
+    .heading-2 p{
+        font-weight: 400;
+        font-size: 14px;    
+    }
+    progress {
+        width: 250px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 2px solid #ffffff;
+        padding: 2px;
+        margin-top: 40px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        display: none;
+    }
+     #p2{
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:621px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+        font-family: poppins;
+    }
+    .first-container{
+        display: none; 
+    }
+    .second-container{
+        margin-top: 20px;
+        height: 600px;
+        width: 420px;
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 90px;
+        height: 30px;
+        margin-left:30px;
+    }
+    h2{
+        margin-top: 80px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .heading-2 p{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 20px;    
+    }
+    progress {
+        width: 275px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        padding: 2px;
+        margin-top: 40px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #p2{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+        font-family: poppins;
+    }
+    .first-container{
+        display: none; 
+    }
+    .second-container{
+        margin-top: 20px;
+        height: 600px;
+        width: 420px;
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 80px;
+        height: 28px;
+        margin-left:20px;
+    }
+    h2{
+        margin-top: 80px;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .heading-2 p{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 19px;    
+    }
+    progress {
+        width: 260px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        padding: 2px;
+        margin-top: 40px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #p2{
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+        font-family: poppins;
+    }
+    .first-container{
+        display: none; 
+    }
+    .second-container{
+        margin-top: 20px;
+        height: 600px;
+        width: 420px;
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 70px;
+        height: 26px;
+        margin-left:20px;
+    }
+    h2{
+        margin-top: 70px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .heading-2 p{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 20px;    
+    }
+    progress {
+        width: 270px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        padding: 2px;
+        margin-top: 50px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #p2{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:50px) and (max-width:319px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+        font-family: poppins;
+    }
+    .first-container{
+        display: none; 
+    }
+    .second-container{
+        margin-top: 30px;
+        height: 600px;
+        width: 420px;
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 80px;
+        height: 28px;
+        margin-left:20px;
+    }
+    h2{
+        margin-top: 70px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .heading-2 p{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 20px;    
+    }
+    progress {
+        width: 270px;
+        height:30px;
+        top: 553px;
+        left: 793px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        padding: 2px;
+        margin-top: 40px;
+    }
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+    progress::-webkit-progress-value {
+        background-color: #ffcc00;
+        border-radius: 4px;
+    }
+    #p1{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #p2{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}

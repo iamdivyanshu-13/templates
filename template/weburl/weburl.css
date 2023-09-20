@@ -1,0 +1,555 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-color: rgba(15, 79, 125, 1);
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-container{
+    background-color: rgba(255, 255, 255, 1);
+    width: 450px;
+    height: 600px;
+    border-radius: 31px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: poppins;
+}
+.head{
+    text-align: left;
+}
+.head img{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.heading-1 p{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.image img{
+    width: 430px;
+    height: 315px;
+}
+.second-container{
+    width: 450px;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center;
+    font-family: poppins;
+}
+h2{
+    font-size:25px;
+    margin-top: 180px;
+}
+.heading-2 p{
+    margin-top: 10px;
+    color: rgba(238, 238, 238, 1);
+    font-size: 17px;
+}
+::placeholder{
+   
+    color: #ffffff;
+}
+input{
+    width: 370px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25px;
+    margin-top: 30px;
+    outline: none;
+}
+.inputs p{
+    font-size: 15px;
+    color: (238, 238, 238, 1);
+    margin-top: 10px;
+    
+}
+button{
+    width: 397px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1.5px solid white;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+    outline: none;
+}
+@media screen and (min-width:2560px) and (max-width:4000px) {
+    .logo-1{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    .logo-1{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .logo-1{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 30px;
+        width: 430px;
+        color: black;
+        height: 590px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        margin-left: 8PX;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 40px;
+    }
+    .heading-1 p{
+        font-size:19px;
+        margin-top: 15px;
+    }
+    .image img{
+        width: 410px;
+        height: 340px;
+    }
+    .second-container{
+        margin-top: 30px;
+        width: 400px;
+    }
+    .logo-1{
+        display: none;
+    }
+    h2{
+        font-size:22px;
+        margin-top: 170px;
+    }
+    .heading-2 p{
+        margin-top: 10px;
+        color: rgba(238, 238, 238, 1);
+        font-size: 15px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 320px;
+        height: 45px;
+        border-radius: 8px;
+        background-color: transparent;
+        border: 1.5px solid white;
+        font-size: 20px;
+        color: #ffffff;
+        padding-left: 20px;
+        margin-top: 30px;
+        outline: none;
+    }
+    .inputs p{
+        font-size: 13px;
+        color: (238, 238, 238, 1);
+        margin-top: 10px;
+        
+    }
+    button{
+        width: 347px;
+        height: 45px;
+        border-radius: 8px;
+        border: 1.5px solid white;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 30px;
+        outline: none;
+    }
+}
+@media screen and (min-width:628px) and (max-width:767px){
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 40px;
+        width: 320px;
+        color: black;
+        height: 550px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        margin-left: 5px;
+    }
+    .head img{
+        width: 100px;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .heading-1 p{
+        font-size:16px;
+        margin-top: 15px;
+    }
+    .image img{
+        width: 320px;
+        height: 320px;
+    }
+    .second-container{
+        margin-top: 30px;
+        width: 380px;
+    }
+    .logo-1{
+        display: none;
+    }
+    h2{
+        font-size:19px;
+        margin-top: 170px;
+    }
+    .heading-2 p{
+        margin-top: 10px;
+        color: rgba(238, 238, 238, 1);
+        font-size: 14px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 270px;
+        height: 45px;
+        border-radius: 8px;
+        background-color: transparent;
+        border: 1.5px solid white;
+        font-size: 20px;
+        color: #ffffff;
+        padding-left: 10px;
+        margin-top: 30px;
+        outline: none;
+    }
+    .inputs p{
+        font-size: 11px;
+        color: (238, 238, 238, 1);
+        margin-top: 10px;
+        
+    }
+    button{
+        width: 285px;
+        height: 45px;
+        border-radius: 8px;
+       
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 30px;
+        outline: none;
+    }
+}
+@media screen and (min-width:425px) and (max-width:627px){
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+        color: white;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+       display: none;
+    }
+    .second-container{
+        margin-top: 20px;
+        width: 450px;
+        height: 600px;
+    }
+    .logo-1{
+        text-align: left;
+    }
+    .logo-1 img{
+        width: 90px;
+        height: 30px;
+        margin-left:30px;
+    }
+    h2{
+        font-size:26px;
+        margin-top: 70px;
+    }
+    .heading-2 p{
+        margin-top: 10px;
+        color: rgba(238, 238, 238, 1);
+        font-size:20px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 265px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 20px;
+        margin-top: 40px;
+        outline: none;
+    }
+    .inputs p{
+        
+        font-size: 11px;
+        color: (238, 238, 238, 1);
+        margin-top: 30px;
+        
+    }
+    button{
+        width: 287px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 60px;
+        outline: none;
+    }
+
+}
+@media screen and (min-width:375px) and (max-width:424px){
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+        color: white;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+       display: none;
+    }
+    .second-container{
+        margin-top: 20px;
+        width: 450px;
+        height: 600px;
+    }
+    .logo-1{
+        text-align: left;
+    }
+    .logo-1 img{
+        width: 80px;
+        height: 28px;
+        margin-left:30px;
+    }
+    h2{
+        font-size:24px;
+        margin-top: 70px;
+    }
+    .heading-2 p{
+        margin-top: 10px;
+        color: rgba(238, 238, 238, 1);
+        font-size:18px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 20px;
+        margin-top: 40px;
+        outline: none;
+    }
+    
+    .inputs p{
+        font-size: 14px;
+        color: (238, 238, 238, 1);
+        margin-top: 30px;
+        
+    }
+    button{
+        width: 267px;
+        height:40px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 60px;
+        outline: none;
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:375px){
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg
+        );
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+        color: white;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+       display: none;
+    }
+    .second-container{
+        margin-top: 20px;
+        width: 450px;
+        height: 600px;
+    }
+    .logo-1{
+        text-align: left;
+    }
+    .logo-1 img{
+        width: 80px;
+        height: 26px;
+        margin-left:20px;
+    }
+    h2{
+        font-size:22px;
+        margin-top: 60px;
+    }
+    .heading-2 p{
+        margin-top: 15px;
+        color: rgba(238, 238, 238, 1);
+        font-size:18px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 20px;
+        margin-top: 30px;
+        outline: none;
+    }
+    
+    .inputs p{
+        font-size: 15px;
+        color: (238, 238, 238, 1);
+        margin-top:25px;
+        
+    }
+    button{
+        width: 267px;
+        height:40px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 50px;
+        outline: none;
+    }
+
+}
+@media screen and (min-width:50px) and (max-width:320px){
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+        color: white;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+       display: none;
+    }
+    .second-container{
+        margin-top: 20px;
+        width: 450px;
+        height: 600px;
+    }
+    .logo-1{
+        text-align: left;
+    }
+    .logo-1 img{
+        width: 80px;
+        height: 26px;
+        margin-left:20px;
+    }
+    h2{
+        font-size:22px;
+        margin-top: 60px;
+    }
+    .heading-2 p{
+        margin-top: 15px;
+        color: rgba(238, 238, 238, 1);
+        font-size:18px;
+    }
+    ::placeholder{
+        color: #ffffff;
+    }
+    input{
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 20px;
+        margin-top: 30px;
+        outline: none;
+    }
+    
+    .inputs p{
+        font-size: 15px;
+        color: (238, 238, 238, 1);
+        margin-top:25px;
+        
+    }
+    button{
+        width: 267px;
+        height:40px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size: 22px;
+        color: black;
+        font-weight: 700;
+        margin-top: 50px;
+        outline: none;
+    }
+
+}

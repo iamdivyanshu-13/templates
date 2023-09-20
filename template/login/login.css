@@ -1,0 +1,753 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-color: rgba(15, 79, 125, 1);
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: poppins;
+}
+.first-container{
+    background-color: rgba(255, 255, 255, 1);
+    width: 450px;
+    height: 600px;
+    border-radius: 31px;
+    margin-top: 30px;
+    text-align: center;
+}
+.head{
+    text-align: left;
+}
+.head img{
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.heading-1 p{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.image img{
+    width: 410px;
+    height: 310px;
+}
+.second-container{
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+}
+.button-1{
+    text-align: right;
+    margin-bottom: 240px;
+}
+#b1{
+    width: 90px;
+    height: 30px;
+    border:none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#b2{
+    width: 90px;
+    height: 30px;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    background:transparent;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.user{
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    width: 350px;
+    
+}
+.password{
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    border: 1.5px solid white;
+    width: 350px;
+}
+input{
+    color: white;
+    font-size: 18px;
+    
+}
+::placeholder{
+    color: white;
+    font-size: 16px;
+}
+#first{
+    width: 300px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+} 
+#second{
+    padding-left: 10px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    border-radius: 8px;
+    outline: none; 
+} 
+.button-2{
+    text-align: left;
+}
+#third{
+    width: 350px;
+    height: 45px;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+} 
+@media screen and (min-width:2560px) and (max-width:4000px) {
+    .header{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    .header{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .header{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 40px;
+        width: 450px;
+        color: black;
+        height: 600px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        margin-left: 10PX;
+    }
+    .head img{
+        width: 115px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    h1{
+        font-size: 38px;
+        margin-top: 45px;
+    }
+    .heading-1 p{
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .image img{
+        width: 400px;
+        height: 330px;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width: 400px;
+        margin-left:10px;
+    }
+    .header{
+        display: none;
+    }
+    .button-1{
+        text-align: right;
+        margin-bottom: 240px;
+    }
+    #b1{
+        width: 80px;
+        height: 30px;
+        border:none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #b2{
+        width: 80px;
+        height: 30px;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        color: white;
+        outline: none;
+        background:transparent;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .user{
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        width: 330px;
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1.5px solid white;
+        width: 330px;
+    }
+    input{
+        color: white;
+        font-size: 18px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 280px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 280px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 330px;
+        height: 45px;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+}  
+@media screen and (min-width:590px) and (max-width:767px){
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        text-align: center;
+        margin-top: 40px;
+        width: 300px;
+        color: black;
+        height: 600px;
+        background-color: #ffffff;
+        border-radius: 31px;
+        margin-left: 10PX;
+    }
+    
+    .head img{
+        width: 115px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    h1{
+        font-size: 38px;
+        margin-top: 45px;
+    }
+    .heading-1 p{
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .image img{
+        width: 300px;
+        height: 300px;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width: 350px;
+        margin-left:10px;
+    }
+    .header{
+        display: none;
+    }
+    .button-1{
+        text-align:right;
+        margin-bottom: 240px;
+    }
+    #b1{
+        width: 70px;
+        height: 28px;
+        border:none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #b2{
+        width: 70px;
+        height: 28px;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        color: white;
+        outline: none;
+        background:transparent;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .user{
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        width: 280px;
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1.5px solid white;
+        width: 280px;
+    }
+    input{
+        color: white;
+        font-size: 18px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 250px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 250px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 280px;
+        height: 45px;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+}  
+@media screen and (min-width:425px) and (max-width:610px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        display: none;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width:300px;
+        
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 90px;
+        height: 30px;
+    }
+    .button-1{
+        display: none;
+        
+    }
+    .user{
+        margin-top: 165px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        width: 280px;
+        margin-left: 20px;
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1px solid white;
+        width: 280px;
+        margin-left: 20px;
+    }
+    input{
+        color: white;
+        font-size: 18px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 230px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 230px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 280px;
+        height: 45px;
+        border: 1px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 20px;
+    } 
+}  
+@media screen and (min-width:375px) and (max-width:425px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        display: none;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width:300px;
+        
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 80px;
+        height:28px;
+    }
+    .button-1{
+        display: none;
+        
+    }
+    .user{
+        margin-top: 130px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        width: 280px;
+        margin-left: 15px;
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1px solid white;
+        width: 280px;
+        margin-left: 15px;
+    }
+    input{
+        color: white;
+        font-size: 17px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 230px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 230px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 280px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 15px;
+    } 
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        display: none;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width:300px;
+        
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 80px;
+        height:26px;
+        margin-left: 15px;
+    }
+    .button-1{
+        display: none;
+        
+    }
+    .user{
+        margin-top: 130px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        width: 260px;
+        margin-left: 20px;
+        
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1px solid white;
+        width: 260px;
+        margin-left:20px;
+    }
+    input{
+        color: white;
+        font-size: 15px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 260px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 20px;
+    } 
+}
+@media screen and (min-width:50px) and (max-width:320px) {
+    body {
+        background-image: linear-gradient( 45deg, rgba(12, 12, 12, 0.705), rgb(3, 43, 84) ),
+        url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center ;
+        background-attachment:fixed ;
+    }
+    .main-container{
+        flex-direction: row;
+    }
+    .first-container{
+        display: none;
+    }
+    .second-container{
+        text-align: center;
+        margin-top: 20px;
+        width:300px;
+        
+    }
+    .header{
+        text-align: left;
+    }
+    .header img{
+        width: 80px;
+        height:26px;
+        margin-left: 15px;
+    }
+    .button-1{
+        display: none;
+        
+    }
+    .user{
+        margin-top: 130px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        width: 260px;
+        margin-left: 20px;
+        
+        
+    }
+    .password{
+        border-radius: 8px;
+        margin-top: 20px;
+        color: white;
+        border: 1px solid white;
+        width: 260px;
+        margin-left:20px;
+    }
+    input{
+        color: white;
+        font-size: 15px;
+        
+    }
+    ::placeholder{
+        color: white;
+        font-size: 16px;
+    }
+    #first{
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px;
+    } 
+    #second{
+        padding-left: 10px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        border-radius: 5px;
+        outline: none; 
+    } 
+    .button-2{
+        text-align: left;
+    }
+    #third{
+        width: 260px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 30px;
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 20px;
+    } 
+}
